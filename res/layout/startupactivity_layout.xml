@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_rainbow"
+    tools:context="pati.startup.StartupActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/dorago" />
+
+    <Button
+        android:id="@+id/mainactivity_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

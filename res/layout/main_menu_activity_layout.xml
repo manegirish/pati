@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pati.startup.MainMenuActivity"
+    android:background="@drawable/main_menu_bg"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/mainactivity_numbr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/number_button"
+        />
+
+    <Button
+        android:id="@+id/mainactivity_story"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+ 		android:layout_alignParentBottom="true"
+ 		android:layout_alignParentLeft="true"
+ 		android:layout_marginLeft="20dp"
+ 		android:layout_marginBottom="20dp"
+ 		android:background="@drawable/story_button"
+        />
+
+    <Button
+        android:id="@+id/mainactivity_alpha"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+		android:background="@drawable/alphabet_button"       
+        />
+
+    <Button
+        android:id="@+id/mainactivity_slate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/slate_button"
+        />
+
+    <ImageView
+        android:id="@+id/mainactivity_iv1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/school_clipart" />
+
+    <Button
+        android:id="@+id/mainactivity_preparation"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/preparation_button"
+        />
+
+</RelativeLayout>

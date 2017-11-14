@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pati.startup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartupActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name" >
+         </activity>
+     
+         <!-- Slate Activity  -->   
+         <activity
+            android:name="pati.slate.DrawingActivity"
+            android:label="@string/app_name" >
+         </activity>
+        
+         <!-- Numbers -->
+         <activity
+            android:name="pati.number.NL_Main_Activity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.OneActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.TwoActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.ThreeActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.FourActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.FiveActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.SixActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.SevenActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.EightActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="pati.number.NineActivity"
+            android:label="@string/app_name" >
+         </activity>      
+         
+         
+         
+    </application>
+
+</manifest>
